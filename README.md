@@ -2,6 +2,18 @@
 
 This is a static one-page portfolio for the no-upfront-fee outreach route.
 
+Public URL:
+
+```text
+https://sunrenyi423.github.io/ai-automation-portfolio/
+```
+
+GitHub repository:
+
+```text
+https://github.com/sunrenyi423/ai-automation-portfolio
+```
+
 Open locally:
 
 ```text
@@ -17,8 +29,4 @@ Use cases:
 
 GitHub Pages deployment path:
 
-1. Create a GitHub repository, for example `ai-automation-portfolio`.
-2. Upload `index.html`, `styles.css`, and the `assets` folder.
-3. In repository settings, enable Pages from the main branch.
-4. Use the generated URL as the public portfolio link.
-
+Status: deployed from `main` branch, root folder `/`.
