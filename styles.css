@@ -83,6 +83,35 @@ li {
   font-size: 18px;
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button.primary {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.button.secondary {
+  background: var(--panel);
+}
+
 .summary-panel,
 .card,
 .cta {
@@ -157,6 +186,10 @@ ol {
 
 .cta p {
   margin-bottom: 0;
+}
+
+.cta-link {
+  margin-top: 18px;
 }
 
 @media (max-width: 820px) {
